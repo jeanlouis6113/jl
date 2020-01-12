@@ -1,0 +1,40 @@
+.gandalf {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(http://images.innoveduc.fr/integration_gandalf.png) center center no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+    height: 400px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 52px;
+  }
+  
+  .contents{
+    color: black;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+  .contents p {
+    margin: 19px;
+  }
+  
+  .color {
+    color: orange;
+  }
+  
+  .gandalf:hover {
+    justify-content: flex-end;
+    font-size: 28px;
+    background-color: rgba(255,255,255,0);
+  }
+  
+  .gandalf:hover :nth-child(1){
+    display:none;
+  }
